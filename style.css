@@ -1,56 +1,56 @@
 /* Cabecalho */
 .header {
-  
-    display: flex;
-  justify-content: space-between;
+
+  display: flex;
+justify-content: space-between;
 }
 .caixa-cabecalho{
-  
+
 }
 
 .menu-mobile {
-  display: none;
+display: none;
 }
 
 
 .caixa-cabecalho ul {
-    list-style-type: none;
+  list-style-type: none;
 } 
 
 .caixa-cabecalho ul li {
-        display: inline-block;
-    }
+      display: inline-block;
+  }
 
 .caixa-cabecalho ul li a {
-        text-decoration:none; 
-        color:black;
-        font-weight: bold; 
-        padding: 10px; 
-    }
+      text-decoration:none; 
+      color:black;
+      font-weight: bold; 
+      padding: 10px; 
+  }
 
 .caixa-cabecalho ul li a:hover {
-        background-color: cornflowerblue;
-    }   
+      background-color: cornflowerblue;
+  }   
 
 h1{
-    margin-top: 10px;
-    margin-right: 10px;
-    background-color: rgb(230, 226, 226);
-    padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: rgb(230, 226, 226);
+  padding: 10px;
 }
 
 /* Perfil */
 .perfil {
-  display: flex;
+display: flex;
 }
 .caixa-perfil{
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .caixa-perfil img {
-    display:block;
-    width: 220px;
-    margin-right: 10px;
-  object-fit: cover;
+  display:block;
+  width: 220px;
+  margin-right: 10px;
+object-fit: cover;
 }
 p{
 margin-bottom: 0px;
@@ -58,68 +58,86 @@ padding: 10px;
 }
 
 .caixa-conteudosugerido {
-  max-width: 720px;
-  margin: 0 auto;
+max-width: 720px;
+margin: 0 auto;
 }
 
 .redes i {
-  font-size: 24px;
+font-size: 24px;
 }
 .nome{
-  color: deepskyblue;
-  font-weight: bold;
-  font-size: 25px;
+color: deepskyblue;
+font-weight: bold;
+font-size: 25px;
 }
+/*Repsitórios*/
+.card-img-top {
+max-width: 100%;
+height: auto;
+max-height: 200px; 
+object-fit: cover; 
+}
+/*Repositórios*/
+
+/*Conteúdo Sugerido*/
+.carousel-item {
+text-align: center;
+}
+.carousel-item iframe {
+margin: 0 auto;
+}
+/*Conteúdo Sugerido*/
 
 /* Colegas de Trabalho */
 img{
-  max-width: 100%;
-  display: block;
+max-width: 100%;
+display: block;
 }
-    
+
 .caixa-colegasdetrabalho{
-  display: flex; 
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+display: flex; 
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 20px;
 }
 .caixa-colegasdetrabalho > div{
-   width: 300px;
-  
+ width: 300px;
+
 }
 
 @media screen and (max-width: 720px) {
-  .caixa-cabecalho ul {
-    display: none;
-  }
+.caixa-cabecalho ul {
+  display: none;
+}
 
-  .menu-mobile {
-    display: block;
-  }
+.menu-mobile {
+  display: block;
+}
 
-  .perfil {
-    flex-direction: column;
-  }
+.perfil {
+  flex-direction: column;
+}
 }
 .colegas{
-  color: deepskyblue;
+color: deepskyblue;
 }
 /* Detalhes Repositório */
 .detalhesrepositorio{
-  color: deepskyblue;
-  font-weight: bold;
+color: deepskyblue;
+font-weight: bold;
 }
 a{
-  padding: 10px;
+padding: 10px;
 }
 .topicos{
-  display: flex;
-  padding: 20px;
-  gap: 10px;
+display: flex;
+padding: 20px;
+gap: 10px;
 }
 .x{
-  background-color: deepskyblue;
-  border-radius: 10px;
+background-color: deepskyblue;
+border-radius: 10px;
 }
+
 
